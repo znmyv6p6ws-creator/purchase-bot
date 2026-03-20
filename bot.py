@@ -13,7 +13,6 @@ from telegram.ext import (
 import gspread
 from google.oauth2.service_account import Credentials
  
-load_dotenv()
  
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s",
